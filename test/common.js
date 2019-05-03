@@ -10,7 +10,7 @@ function pullRequest() {
     rebaseable: true,
     mergeable_state: "clean",
     commits: 2,
-    labels: [{ name: "automerge" }],
+    //labels: [{ name: "automerge" }],
     head: {
       ref: "patch-1",
       sha: "2c3b4d5",

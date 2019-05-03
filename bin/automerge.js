@@ -48,10 +48,10 @@ async function main() {
   });
 
   const labels = parseLabels(process.env.LABELS);
-  const automerge = process.env.AUTOMERGE || "automerge";
+  // const automerge = process.env.AUTOMERGE || "automerge";
   const autorebase = process.env.AUTOREBASE || "autorebase";
   const mergeMethod = process.env.MERGE_METHOD || "merge";
-  const config = { labels, automerge, autorebase, mergeMethod };
+  const config = { labels, autorebase, mergeMethod };
 
   logger.debug("Configuration:", config);
 
